@@ -1,0 +1,132 @@
+body {
+  background-image: url("foto/scene.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 500px;
+
+}
+.header {
+  position: absolute;
+  background: #0f292f;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.pavadinimas {
+  font-size: 35px;
+  text-align: center;
+  color: #14a098;
+  font-family: 'Tourney', cursive;
+}
+#board1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 100px;
+    padding: 200px;
+    background: black;
+    opacity: 0.5;
+    top: 26%;
+    border-radius: 10%;
+}
+.video1 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  width:600;
+  height:450;
+}
+.video2 {
+  position: absolute;
+  top: 35%;
+  left: 41%;
+  width:600;
+  height:450;
+}
+.video3 {
+  position: absolute;
+  top: 35%;
+  left: 71%;
+  width:600;
+  height:450;
+}
+.audio1 {
+  position: absolute;
+  top: 78%;
+  left: 10%;
+}
+.audio2 {
+  position: absolute;
+  top: 78%;
+  left: 41%;
+
+}
+.audio3 {
+  position: absolute;
+  top: 78%;
+  left: 71%;
+}
+.tv1 {
+  position: absolute;
+  left: 240px;
+  top: 190px;
+  font-family: monospace;
+  color: #14a098;
+
+}
+.tv2 {
+  position: absolute;
+  left: 745px;
+  top: 190px;
+  font-family: monospace;
+  color: #14a098;
+
+}
+.tv3 {
+  position: absolute;
+  left: 1195px;
+  top: 190px;
+  font-family: monospace;
+  color: #14a098;
+
+}
+.mt {
+  position: absolute;
+  left: 480px;
+  display: block;
+  top: 900px;
+  font-family: monospace;
+  color: #14a098;
+}
+
+.line {
+  position: absolute;
+  width: 1000px;
+  filter: invert(44%) sepia(61%) saturate(543%) hue-rotate(128deg) brightness(102%) contrast(96%);
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 300px;
+}
+.map {
+  margin-left: 28%;
+
+}
+.footer {
+  position: absolute;
+  background: #0f292f;
+  left: 0px;
+  right: 0px;;
+  bottom: -120%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
